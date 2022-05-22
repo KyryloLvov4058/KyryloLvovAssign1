@@ -8,7 +8,7 @@ android {
     defaultConfig {
         applicationId "kyrylo.lvov.n01414058"
         minSdk 26
-        targetSdk 32
+        targetSdk 30
         versionCode 1
         versionName "1.0"
 

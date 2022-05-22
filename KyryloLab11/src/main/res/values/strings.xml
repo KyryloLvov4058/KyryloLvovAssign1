@@ -1,3 +1,5 @@
+<!-- Kyrylo Lvov n01414058 section B -->
 <resources>
     <string name="app_name">KyryloLab1</string>
+    <string name="label_hello">Hello World!</string>
 </resources>

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KyryloLab1">
         <activity
-            android:name=".MainActivity"
+            android:name=".KyryloActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

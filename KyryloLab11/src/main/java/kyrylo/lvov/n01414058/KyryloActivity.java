@@ -1,10 +1,11 @@
+// Kyrylo Lvov n01414058 section B
 package kyrylo.lvov.n01414058;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class KyryloActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
