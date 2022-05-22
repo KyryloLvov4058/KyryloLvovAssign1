@@ -5,4 +5,5 @@
     <string name="launch_site">Launch Site</string>
     <string name="process_edit">Process Edit</string>
     <string name="launch_activity">Launch Activity</string>
+    <string name="toast_message">Kyrylo Lvov, launching IntelliJ IDEA website</string>
 </resources>
