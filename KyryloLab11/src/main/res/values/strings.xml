@@ -1,5 +1,8 @@
 <!-- Kyrylo Lvov n01414058 section B -->
 <resources>
     <string name="app_name">Kyrylo Lvov n01414058</string>
-    <string name="label_hello">Hello World!</string>
+    <string name="label_hello">Welcome, Kyrylo Lvov n01414058</string>
+    <string name="launch_site">Launch Site</string>
+    <string name="process_edit">Process Edit</string>
+    <string name="launch_activity">Launch Activity</string>
 </resources>

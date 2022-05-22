@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="KyryloLab11/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="KyryloLab11/src/main/res/layout/activity_lvov.xml" value="0.19972826086956522" />
+        <entry key="KyryloLab11/src/main/res/layout/activity_main.xml" value="0.20095354163128393" />
+        <entry key="KyryloLab11/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.117" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.10824127197265626" />
       </map>
     </option>
