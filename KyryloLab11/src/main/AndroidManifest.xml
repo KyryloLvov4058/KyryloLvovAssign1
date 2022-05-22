@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KyryloLab1">
         <activity
+            android:name=".LvovSecondActivity"
+            android:exported="false" />
+        <activity
             android:name=".KyryloActivity"
             android:exported="true">
             <intent-filter>

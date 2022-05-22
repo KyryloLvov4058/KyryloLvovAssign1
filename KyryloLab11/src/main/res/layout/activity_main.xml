@@ -68,6 +68,7 @@
         android:textColor="@color/button_color"
         android:backgroundTint="@color/button_background"
         android:text="@string/launch_activity"
+        android:onClick="callIntent"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

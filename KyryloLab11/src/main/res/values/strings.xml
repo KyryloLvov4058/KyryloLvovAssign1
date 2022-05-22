@@ -2,8 +2,10 @@
 <resources>
     <string name="app_name">Kyrylo Lvov n01414058</string>
     <string name="label_hello">Welcome, Kyrylo Lvov n01414058</string>
+    <string name="label_second">My Second Screen, Kyrylo Lvov n01414058</string>
     <string name="launch_site">Launch Site</string>
     <string name="process_edit">Process Edit</string>
     <string name="launch_activity">Launch Activity</string>
     <string name="toast_message">Kyrylo Lvov, launching IntelliJ IDEA website</string>
+    <string name="default_toast_message">Default toast message</string>
 </resources>
