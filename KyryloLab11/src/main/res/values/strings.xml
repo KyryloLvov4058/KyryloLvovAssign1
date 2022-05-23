@@ -8,4 +8,6 @@
     <string name="launch_activity">Launch Activity</string>
     <string name="toast_message">Kyrylo Lvov, launching IntelliJ IDEA website</string>
     <string name="default_toast_message">Default toast message</string>
+    <string name="snackbar_text">Kyrylo Lvov 2nd screen</string>
+    <string name="snackbar_action">CLOSE</string>
 </resources>

@@ -1,5 +1,13 @@
 <!-- Kyrylo Lvov n01414058 section B -->
 <resources>
-    <string name="app_name">KyryloLab1</string>
-    <string name="label_hello">Bonjour le monde!</string>
+    <string name="app_name">Kyrylo Lvov n01414058</string>
+    <string name="label_hello">Bienvenue, Kyrylo Lvov n01414058</string>
+    <string name="label_second">Mon deuxième écran, Kyrylo Lvov n01414058</string>
+    <string name="launch_site">Site de lancement</string>
+    <string name="process_edit">Traiter Modifier</string>
+    <string name="launch_activity">Activité de lancement</string>
+    <string name="toast_message">Kyrylo Lvov, lancement du site Web IntelliJ IDEA</string>
+    <string name="default_toast_message">Message toast par défaut</string>
+    <string name="snackbar_text">Kyrylo Lvov 2ème écran</string>
+    <string name="snackbar_action">PROCHE</string>
 </resources>

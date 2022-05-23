@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class KyryloActivity extends AppCompatActivity {
 
     @Override
@@ -42,11 +44,20 @@ public class KyryloActivity extends AppCompatActivity {
                 processToast.show();
                 break;
             case R.id.kyryloLaunchButton:
-                String passText = editText.getText().toString();
-                intent = new Intent(KyryloActivity.this, LvovSecondActivity.class);
-                intent.putExtra("message", passText);
+                View parentLayout = findViewById(android.R.id.content);
+                Snackbar.make(parentLayout, R.string.snackbar_text, Snackbar.LENGTH_LONG)
+                        .setAction(R.string.snackbar_action, new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                String passText = editText.getText().toString();
+                                Intent snackIntent = new Intent(KyryloActivity.this, LvovSecondActivity.class);
+                                snackIntent.putExtra("message", passText);
 
-                startActivity(intent);
+                                startActivity(snackIntent);
+                            }
+                        })
+                        .setActionTextColor(getResources().getColor(android.R.color.holo_red_light ))
+                        .show();
                 break;
             default:
                 Context defaultContext = getApplicationContext();
