@@ -3,6 +3,7 @@ package kyrylo.lvov.n01414058;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class LvovSecondActivity extends AppCompatActivity {
@@ -17,5 +18,10 @@ public class LvovSecondActivity extends AppCompatActivity {
         String value = getIntent().getStringExtra("message");
 
         textView.setText(value);
+    }
+
+    public void onPause() {
+        super.onPause();
+        Log.d("Background", "Kyrylo Lvov n01414058");
     }
 }

@@ -22,6 +22,11 @@ public class KyryloActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void onPause() {
+        super.onPause();
+        Log.d("Background", "Kyrylo Lvov n01414058");
+    }
+
     public void callIntent(View view) {
         Intent intent = null;
         EditText editText = findViewById(R.id.kyryloEditText);
