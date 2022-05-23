@@ -10,4 +10,5 @@
     <string name="default_toast_message">Message toast par défaut</string>
     <string name="snackbar_text">Kyrylo Lvov 2ème écran</string>
     <string name="snackbar_action">PROCHE</string>
+    <string name="website_link">https://www.jetbrains.com/idea/</string>
 </resources>

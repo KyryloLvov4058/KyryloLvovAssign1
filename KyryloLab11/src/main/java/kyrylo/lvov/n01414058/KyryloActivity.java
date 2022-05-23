@@ -37,7 +37,7 @@ public class KyryloActivity extends AppCompatActivity {
 
                 websiteToast.show();
                 intent = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://www.jetbrains.com/idea/"));
+                        Uri.parse(getString(R.string.website_link)));
                 startActivity(intent);
                 break;
             case R.id.kyryloProcessButton:
@@ -66,7 +66,7 @@ public class KyryloActivity extends AppCompatActivity {
                 break;
             default:
                 Context defaultContext = getApplicationContext();
-                Toast defaultToast = Toast.makeText(defaultContext, getString(R.string.toast_message), Toast.LENGTH_SHORT);
+                Toast defaultToast = Toast.makeText(defaultContext, getString(R.string.default_toast_message), Toast.LENGTH_SHORT);
 
                 defaultToast.show();
                 break;
